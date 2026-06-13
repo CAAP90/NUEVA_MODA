@@ -473,5 +473,10 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
 });
 
+// Ocultar arco en móvil
+if (window.innerWidth <= 768) {
+  const arc = document.getElementById('heroArc');
+  if (arc) arc.style.display = 'none';
+}
 
 
