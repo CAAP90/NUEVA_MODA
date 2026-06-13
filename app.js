@@ -61,9 +61,9 @@ imagenesColor: {
     id: 4,
     nombre: "chaqueta tejido confeti nueva moda",
     precio: 70000,
-   imagen: "img/chaqueta-tejido-confeti.jpg",
+   imagen: "img/Chaqueta_tejido_confeti.jpg",
 imagenesColor: {
-  "blanco crema": "img/chaqueta-tejido-confeti.jpg",
+  "blanco crema": "img/Chaqueta_tejido_confeti.jpg",
 },
 
      tallas: ["XS", "S", "M", "L"],
@@ -75,7 +75,7 @@ imagenesColor: {
     id: 5,
     nombre: "Braga tipo jean nueva moda",
     precio: 80000,
-    imagen: "img/braga-tipo-jean.jpg",
+    imagen: "img/braga tipo jean.jpg",
     tallas: ["S", "M", "L"],
     colores: ["Azul"],
     categoria: "bragas",
@@ -85,7 +85,7 @@ imagenesColor: {
     id: 6,
     nombre: "Abrigo de piel peluche nueva moda",
     precio: 65000,
-    imagen: "img/abrigos-de-peil-peluche.jpg",
+    imagen: "img/abrigos de peil_peluche.jpg",
 imagenesColor: {
   "Rosa":  "img/abrigo-de-piel-rosa.jpg",
   "Negro": "img/abrigo-de-piel-negro.jpg",
@@ -99,11 +99,11 @@ imagenesColor: {
   id: 7,
   nombre: "pantalon tipo jean clasico",
   precio: 65000,
-  imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
+  imagen: "img/pantalon tipo jean clasico_azul claro.jpg",
 imagenesColor: {
-  "Azul claro":  "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
-  "Azul oscuro": "img/pantalon-tipo-jean-clasico-azul-oscuro.jpg",
-},
+  "Azul claro":  "img/pantalon tipo jean clasico_azul claro.jpg",
+  "Azul oscuro": "img/pantalo tipo jean clasico_azul oscuro.jpg",
+}
   tallas: ["XS", "S", "M", "L", "XL"],
   colores: ["Azul claro", "Azul oscuro"],
   categoria: "pantalon tipo jean",
