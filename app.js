@@ -1,4 +1,4 @@
-﻿/* ═══════════════════════════════════════
+/* ═══════════════════════════════════════
    NUEVA MODA — app.js
    Para agregar productos: añade objetos al array `productos`
    Campos: id, nombre, precio, imagen, tallas, categoria, descripcion
@@ -14,13 +14,13 @@ const productos = [
   id: 1,
   nombre: "Chaqueta Polar Nueva Moda",
   precio: 65000,
-  imagen: "img/chaquetas.jpg",          // imagen por defecto
-  imagenesColor: {
-    "Blanca": "/img/chaqueta-Blanca.jpg",        // ← la imagen que ya tienes
-    "Rosa":  "img/chaqueta-Rosa.jpg",
-    "Azul":  "img/chaqueta-Azul.jpg",
-    "Verde": "img/chaqueta-Verde.jpg",
-  },
+  imagen: "img/chaquetas.jpg",
+imagenesColor: {
+  "Blanca": "img/chaqueta-Blanca.jpg",
+  "Rosa":   "img/chaqueta-rosa.jpg",
+  "Azul":   "img/chaqueta-azul.jpg",
+  "Verde":  "img/chaqueta-Verde.jpg",
+},
   tallas: ["S", "M", "L", "XL"],
   colores: ["Blanca", "Rosa", "Azul", "Verde"],
   categoria: "chaquetas",
@@ -31,7 +31,7 @@ const productos = [
   id: 2,
   nombre: "pantalones Nueva Moda",
   precio: 90000,
-  imagen: "/img/pantalones.jpg",          // imagen por defecto
+  imagen: "img/pantalones.jpg",          // imagen por defecto
   imagenesColor: {
   "Negro": "img/pantalon-azul-negro.jpg",
 },
@@ -45,7 +45,7 @@ const productos = [
     id: 3,
     nombre: "Falda nueva moda",
     precio: 70000,
-    imagen: "/img/faldas.jpg",
+    imagen: "img/faldas.jpg",
     imagenesColor: {
     "Azul":  "img/falda-Azul.jpg",      // ← la imagen que ya tienes  
     "Negra": "img/falda-Negra.jpg",  
@@ -61,9 +61,9 @@ const productos = [
     id: 4,
     nombre: "chaqueta tejido confeti nueva moda",
     precio: 70000,
-    imagen: "/img/Chaqueta_tejido_confeti.jpg",
-    imagenesColor: {
-  "blanco crema": "img/Chaqueta_tejido_confeti.jpg",
+   imagen: "img/chaqueta-tejido-confeti.jpg",
+imagenesColor: {
+  "blanco crema": "img/chaqueta-tejido-confeti.jpg",
 },
 
      tallas: ["XS", "S", "M", "L"],
@@ -75,7 +75,7 @@ const productos = [
     id: 5,
     nombre: "Braga tipo jean nueva moda",
     precio: 80000,
-    imagen: "/img/braga tipo jean.jpg",
+    imagen: "img/braga-tipo-jean.jpg",
     tallas: ["S", "M", "L"],
     colores: ["Azul"],
     categoria: "bragas",
@@ -85,10 +85,10 @@ const productos = [
     id: 6,
     nombre: "Abrigo de piel peluche nueva moda",
     precio: 65000,
-    imagen: "/img/abrigos de peil_peluche.jpg",
+    imagen: "img/abrigos-de-peil-peluche.jpg",
 imagenesColor: {
-  "Rosa":  "img/abrigo de piel_rosa.jpg",
-  "Negro": "img/abrigo de piel_negro.jpg",
+  "Rosa":  "img/abrigo-de-piel-rosa.jpg",
+  "Negro": "img/abrigo-de-piel-negro.jpg",
 },
     tallas: ["XS", "S", "M", "L", "XL"],
     colores: ["Rosa" , "Negro"],
@@ -99,11 +99,11 @@ imagenesColor: {
   id: 7,
   nombre: "pantalon tipo jean clasico",
   precio: 65000,
-  imagen: "/img/pantalon tipo jean clasico_azul claro.jpg",
-  imagenesColor: {
-    "Azul claro": "img/pantalon tipo jean clasico_azul claro.jpg",
-    "Azul oscuro": "img/pantalo tipo jean clasico_azul oscuro.jpg",
-  },
+  imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
+imagenesColor: {
+  "Azul claro":  "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
+  "Azul oscuro": "img/pantalon-tipo-jean-clasico-azul-oscuro.jpg",
+},
   tallas: ["XS", "S", "M", "L", "XL"],
   colores: ["Azul claro", "Azul oscuro"],
   categoria: "pantalon tipo jean",
@@ -113,11 +113,11 @@ imagenesColor: {
     id: 8,
     nombre: "media termica control abdomen",
     precio: 35000,
-   imagen: "/img/medias_termica_piel_control_abdomen.jpg",
-imagenesColor: {
+   imagen: "img/medias_termica_piel_control_abdomen.jpg",
+   imagenesColor: {
   "Rosa":  "img/medias_termica_piel_control_abdomen.jpg",
   "Negro": "img/medias_termica_piel_control_abdomen.jpg",
-},
+   },
     tallas: ["XS", "S", "M", "L", "XL"],
     colores: ["negro"],
     categoria: "medias",
