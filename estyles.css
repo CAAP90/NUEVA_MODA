@@ -770,8 +770,8 @@ img { display: block; max-width: 100%; }
 
 .hero { flex-direction: column; padding: 40px 20px; min-height: 300px; }
 .hero-content { padding: 0; max-width: 100%; }
-.hero-right { display: none; }
-.hero-model { display: none; }
+.hero-right { width: 100%; height: 250px; overflow: hidden; }
+.hero-model { width: 100%; height: 250px; min-height: 250px; object-fit: cover; object-position: top center; -webkit-mask-image: none; mask-image: none; }
 .hero-flowers { display: none; }
 .hero-arc-svg { display: none; }
 
