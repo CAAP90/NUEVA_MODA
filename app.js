@@ -98,10 +98,10 @@ imagenesColor: {
   id: 7,
   nombre: "pantalon tipo jean clasico",
   precio: 65000,
- imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
+ imagen: "img/pantalon%20tipo%20jean%20clasico_azul%20claro.jpg",
 imagenesColor: {
-  "Azul claro":  "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
-  "Azul oscuro": "img/pantalon-tipo-jean-clasico-azul-oscuro.jpg",
+  "Azul claro":  "img/pantalon%20tipo%20jean%20clasico_azul%20claro.jpg",
+  "Azul oscuro": "img/pantalo%20tipo%20jean%20clasico_azul%20oscuro.jpg",
 },
   tallas: ["XS", "S", "M", "L", "XL"],
   colores: ["Azul claro", "Azul oscuro"],
