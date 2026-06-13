@@ -84,7 +84,7 @@ imagenesColor: {
     id: 6,
     nombre: "Abrigo de piel peluche nueva moda",
     precio: 65000,
-  imagen: "img/abrigos-de-peil-peluche.jpg",
+ imagen: "img/abrigos-de-piel-peluche.jpg",
 imagenesColor: {
   "Rosa":  "img/abrigo-de-piel_rosa.jpg",
   "Negro": "img/abrigo-de-piel-negro.jpg",
