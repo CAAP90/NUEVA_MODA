@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nueva Moda – La Nueva Era de la Moda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="estyles.css" />
+</head>
+<body>
+
+  <!-- ══════════ TOPBAR ══════════ -->
+  <div class="topbar">
+    <span><i class="fas fa-truck"></i> Envíos a todo el país</span>
+    <span><i class="far fa-star"></i> Calidad que te acompaña siempre</span>
+    <span><i class="fab fa-whatsapp"></i> WhatsApp: +573232419952</span>
+  </div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <div class="logo-circle">
+  <img src="img/logonuevamoda.jpg" />
+</div>
+      <div class="logo-text-block">
+        <span class="logo-name">Nueva Moda</span>
+        <span class="logo-tagline">LA NUEVA ERA DE LA MODA</span>
+        
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#inicio" class="active">INICIO</a>
+      <a href="#mujer">MUJER</a>
+      <a href="#coleccion">NUEVA COLECCIÓN</a>
+      <a href="#ofertas">OFERTAS</a>
+      <a href="#nosotros">NOSOTROS</a>
+      <a href="#contacto">CONTACTO</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="search-box">
+        <input type="text" placeholder="Buscar productos..." />
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <button class="icon-btn cart-btn" id="cartBtn">
+  <i class="fas fa-cart-shopping"></i>
+  <span class="cart-count">0</span>
+</button>
+    </div>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+  </header>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-particles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Texto izquierdo -->
+    <div class="hero-content">
+      <h1 class="hero-title">Nueva Moda</h1>
+      <p class="hero-subtitle">LA NUEVA ERA DE LA MODA</p>
+      <div class="hero-divider"></div>
+      <p class="hero-desc">Descubre nuestras colecciones diseñadas<br />para realzar tu estilo único.</p>
+      <a href="#coleccion" class="btn-primary">VER COLECCIÓN &rarr;</a>
+    </div>
+
+    <!-- Lado derecho: arco + modelo + flores -->
+    <div class="hero-right">
+      <!-- Arco fuscia SVG grande -->
+      <svg class="hero-arc-svg" viewBox="0 0 400 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M350,10 C350,10 50,150 50,300 C50,450 350,590 350,590" fill="none" stroke="#E91E8C" stroke-width="32"/>
+</svg>
+      <!-- Imagen modelo -->
+      <img
+        src="/img/faldas.jpg"
+        alt="Modelo principal"
+        class="hero-model"
+      />
+     
+    </div>
+  </section>
+
+  <!-- ══════════ CATEGORÍAS ══════════ -->
+  <section class="categories" id="mujer">
+    <div class="cat-grid">
+      <div class="cat-card" data-cat="chaquetas">
+        <i class="fas fa-vest cat-icon"></i>
+        <span>CHAQUETAS</span>
+      </div>
+      <div class="cat-card" data-cat="pantalones">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h12l-2 18H8L6 3z"/><path d="M6 3l6 10 6-10"/></svg>
+        <span>PANTALONES</span>
+      </div>
+      <div class="cat-card" data-cat="faldas">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4h12v2L14 21H10L6 6V4z"/></svg>
+        <span>FALDAS</span>
+      </div>
+      <div class="cat-card" data-cat="chaqueta dama">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3L3 8l3 1v11h12V9l3-1-5-5-2 2a3 3 0 01-4 0L8 3z"/></svg>
+        <span>Chaqueta dama</span>
+      </div>
+      <div class="cat-card" data-cat="bragas">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3h8l2 5-3 1v12H9V9L6 8l2-5z"/></svg>
+        <span>Braga</span>
+      </div>
+      <div class="cat-card" data-cat="pantalon tipo jean">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
+        <span>pantalon tipo jean</span>
+      </div>
+    
+    <div class="cat-card" data-cat="Abrigos">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3L3 8l3 1v11h12V9l3-1-5-5-2 2a3 3 0 01-4 0L8 3z"/></svg>
+        <span>Abrigo</span>
+      </div>
+      
+      <div class="cat-card" data-cat="medias">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
+        <span>Medias térmicas</span>
+      </div>
+     </div>
+     
+</section>
+
+  <!-- ══════════ COLECCIÓN DESTACADA ══════════ -->
+  <section class="featured" id="coleccion">
+    <div class="section-header">
+      <div class="section-lines"><span></span><h2>Colección Destacada</h2><span></span></div>
+      <p class="section-sub">Lo mejor de nuestra temporada</p>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+      <!-- Los productos se renderizan con JS desde app.js -->
+    </div>
+
+    <div class="load-more-wrap">
+  <button class="btn-outline" id="btnVerTodos" style="display:none; margin-right: 12px;">← VER TODOS</button>
+  <button class="btn-outline" id="btnLoadMore">VER MÁS PRODUCTOS</button>
+</div>
+  </section>
+
+  <!-- ══════════ BENEFICIOS ══════════ -->
+  <section class="benefits">
+    <div class="benefit-item">
+      <i class="fas fa-award benefit-icon"></i>
+      <div>
+        <strong>CALIDAD GARANTIZADA</strong>
+        <p>Prendas seleccionadas con los mejores materiales</p>
+      </div>
+    </div>
+    <div class="benefit-item">
+  <i class="fas fa-truck benefit-icon"></i>
+  <div>
+    <strong>ENVÍOS A TODO EL PAÍS</strong>
+    <img src="img/logo_interrapidisimo.jpg" alt="Interrapidismo" style="height: 30px; margin-top: 6px; object-fit: contain;" />
+  </div>
+</div>
+    <div class="benefit-item">
+      <i class="fas fa-box benefit-icon"></i>
+      <div>
+        <strong>ENTREGA RÁPIDA</strong>
+        <p>Recibe tus productos en el menor tiempo posible</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer" id="contacto">
+    <div class="footer-inner">
+
+      <!-- Col 1: Brand -->
+      <div class="footer-brand">
+     <div class="logo-circle small">
+    <img src="img/logonuevamoda.jpg" alt="Logo" /> 
+</div>
+        <p>Moda femenina que inspira confianza y realza tu belleza en cada ocasión.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/almacenes.nueva_moda" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://tiktok.com/@almacenesnuevamoda" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Col 2: Categorías -->
+      <div class="footer-col">
+        <h4>CATEGORÍAS</h4>
+        <ul>
+          <li><a href="#">Chaquetas</a></li>
+          <li><a href="#">Pantalones</a></li>
+          <li><a href="#">Faldas</a></li>
+          <li><a href="#">Blusas</a></li>
+          <li><a href="#">Vestidos</a></li>
+          <li><a href="#">Conjuntos</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Información -->
+      <div class="footer-col" id="nosotros">
+        <h4>INFORMACIÓN</h4>
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Políticas de envío</a></li>
+          <li><a href="#">Cambios y devoluciones</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Ubicación -->
+<div class="footer-col">
+  <h4>NUESTRA UBICACIÓN</h4>
+  <p style="color:rgba(255,255,255,.6); font-size:.85rem; margin-bottom:12px;">
+    <i class="fas fa-map-marker-alt" style="color:var(--pink); margin-right:6px;"></i>
+    Cra. 52 #39A-28 Sur, Bogotá
+  </p>
+  <div class="footer-map">
+    <iframe
+      src="https://www.google.com/maps?q=4.6000761,-74.1317379&z=17&output=embed"
+      width="100%"
+      height="170"
+      style="border:0; border-radius:8px; filter:grayscale(20%) brightness(0.85);"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2024 Nueva Moda. Todos los derechos reservados.</span>
+      <span>Diseñado con <i class="fas fa-heart" style="color:var(--pink)"></i> para mujeres únicas</span>
+    </div>
+  </footer>
+
+  <!-- ══════════ BOTÓN WHATSAPP ══════════ -->
+  <a href="https://wa.me/573232419952" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ══════════ MODAL PRODUCTO ══════════ -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+ <!-- ══════════ PANEL CARRITO ══════════ -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <h3>Mi Carrito</h3>
+    <button class="cart-close" id="cartClose">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Total:</span>
+      <span id="cartTotal">$0</span>
+    </div>
+    <button class="btn-primary" id="btnCheckout">FINALIZAR PEDIDO</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
