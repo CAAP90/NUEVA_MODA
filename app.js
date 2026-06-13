@@ -98,11 +98,10 @@ imagenesColor: {
   id: 7,
   nombre: "pantalon tipo jean clasico",
   precio: 65000,
-  imagen: "img/pantalon tipo jean clasico_azul claro.jpg",
-imagenesColor: {
+ imagenesColor: {
   "Azul claro":  "img/pantalon tipo jean clasico_azul claro.jpg",
   "Azul oscuro": "img/pantalo tipo jean clasico_azul oscuro.jpg",
-}
+},          // ← coma agregada
   tallas: ["XS", "S", "M", "L", "XL"],
   colores: ["Azul claro", "Azul oscuro"],
   categoria: "pantalon tipo jean",
