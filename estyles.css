@@ -309,7 +309,7 @@ img { display: block; max-width: 100%; }
 /* Arco SVG fuscia que abraza la modelo por la izquierda */
 .hero-arc-svg {
   position: absolute;
-  left: -40px;
+  left: -50px;
   top: 0;
   bottom: 0;
   width: 300px;
