@@ -1,4 +1,4 @@
-﻿/* ═ NUEVA MODA — app.js
+﻿﻿/* ═ NUEVA MODA — app.js
    Para agregar productos: añade objetos al array `productos`
    Campos: id, nombre, precio, imagen, tallas, categoria, descripcion
 ═══════════════════════════════════════ */
