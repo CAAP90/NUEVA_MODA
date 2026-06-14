@@ -303,7 +303,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  overflow: hidden;
+  overflow: visible
 }
 
 /* Arco SVG fuscia que abraza la modelo por la izquierda */
