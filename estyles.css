@@ -765,7 +765,8 @@ img { display: block; max-width: 100%; }
 
 @media (max-width: 768px) {
   .navbar { padding: 12px 20px; flex-wrap: wrap; gap: 10px; }
-  .nav-links, .nav-actions { display: none; }
+  .nav-links { display: none; }
+  .nav-actions { display: flex; }
   .nav-links.open { display: flex; flex-direction: column; width: 100%; order: 3; gap: 12px; }
   .hamburger { display: block; }
 
