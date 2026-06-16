@@ -794,7 +794,7 @@ img { display: block; max-width: 100%; }
   .benefits { grid-template-columns: 1fr 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 24px; }
   .modal-body { grid-template-columns: 1fr; }
-  .modal-body img { height: 220px; }
+  .modal-body img { height: auto; object-fit: contain; }
 }
 
 @media (max-width: 480px) {
