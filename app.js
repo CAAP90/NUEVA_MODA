@@ -79,7 +79,7 @@ imagenesColor: {
     precio: 80000,
     imagen: "img/braga-tipo-jean.jpg",
     imagenesColor: {
-  "azul claro": "img/enterizo.jpg",
+  "Azul claro": "img/enterizo.jpg",
 },
     tallas: ["S", "M", "L", "Xs", "Xl"],
     colores: ["Azul claro"],
