@@ -758,15 +758,10 @@ img { display: block; max-width: 100%; }
     grid-template-columns: 1fr;
   }
   .modal-body img {
-    height: 260px;
-  }
-  .modal-info {
-    padding: 20px 16px;
-  }
-  .modal-card {
-    max-height: 90vh;
-    overflow-y: auto;
-  }
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
 }
 
 
