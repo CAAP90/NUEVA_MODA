@@ -47,10 +47,11 @@ imagenesColor: {
   precio: 90000,
   imagen: "img/pantalones.jpg",          // imagen por defecto
   imagenesColor: {
-  "Negro": "img/pantalon-azul-negro.jpg",
+  "cargo": "img/pantalon-cargo.jpg",
+  "tradicional": "img/pantalon-tradicional.jpg",
 },
   tallas: ["8", "10", "12", "14", "16", "18"],
-  colores: ["Negro"],
+  colores: ["cargo","tradicional"],
   categoria: "pantalones",
   descripcion: "pantalones tipo jeans."
   },
