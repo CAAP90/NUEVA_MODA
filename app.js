@@ -11,7 +11,7 @@
 const productos = [
   {
   id: 1,
-  nombre: "Chaqueta Polar forrada",
+  nombre: "Chaqueta Polar con forro ovejero",
   precio: 65000,
   imagen: "img/chaqueta-menta.jpg",
 imagenesColor: {
@@ -25,9 +25,24 @@ imagenesColor: {
   categoria: "chaquetas",
   descripcion: "Chaqueta polar con forro ovejero."
   },
- 
   {
   id: 2,
+  nombre: "Chaqueta Polar",
+  precio: 65000,
+  imagen: "img/polar-rojo.jpg",
+imagenesColor: {
+  "Negro": "img/polar-negro.jpg",
+  "Rosa":   "img/polar-rosa.jpg",
+  "Azul":   "img/polar-azul.jpg",
+},
+  tallas: ["S", "M", "L", "XL"],
+  colores: ["Negro", "Rosa", "Azul"],
+  categoria: "chaquetas",
+  descripcion: "Chaqueta polar con forro ovejero."
+  },
+ 
+  {
+  id: 3,
   nombre: "pantalones",
   precio: 90000,
   imagen: "img/pantalones.jpg",          // imagen por defecto
@@ -41,8 +56,8 @@ imagenesColor: {
   },
   
   {
-    id: 3,
-    nombre: "Faldas",
+    id: 4,
+    nombre: "Faldas pana con bolsillo",
     precio: 70000,
     imagen: "img/faldas.jpg",
     imagenesColor: {
@@ -57,7 +72,7 @@ imagenesColor: {
     descripcion: "Falda midi de corte fluido que se adapta perfectamente a tu figura."
   },
   {
-    id: 4,
+    id: 5,
     nombre: "chaqueta tejido confeti",
     precio: 70000,
    imagen: "img/chaqueta-tejido-confeti.jpg",
@@ -71,7 +86,7 @@ imagenesColor: {
     descripcion: "chaqueta tejida confeti para darle un toque a tu moda."
   },
   {
-    id: 5,
+    id: 6,
     nombre: "Braga tipo jean",
     precio: 80000,
     imagen: "img/braga-tipo-jean.jpg",
@@ -81,7 +96,7 @@ imagenesColor: {
     descripcion: "hermosa braga para dama."
   },
   {
-    id: 6,
+    id: 7,
     nombre: "Abrigo de piel peluche",
     precio: 65000,
    imagen: "img/abrigos-de-piel-peluche.jpg",
@@ -95,7 +110,7 @@ imagenesColor: {
     descripcion: "abrigos de piel de peluche comodos y adecuados para los dias frios."
   },
   {
-  id: 7,
+  id: 8,
   nombre: "pantalon tipo jean",
   precio: 65000,
  imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
@@ -109,7 +124,7 @@ imagenesColor: {
   descripcion: "pantalones tipo jean clasico para dar un toque de comodidad."
 },
   {
-    id: 8,
+    id: 9,
     nombre: "media termica control abdomen",
     precio: 35000,
    imagen: "img/medias_termica_piel_control_abdomen.jpg",
