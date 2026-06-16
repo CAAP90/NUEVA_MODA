@@ -43,7 +43,7 @@ imagenesColor: {
  
   {
   id: 3,
-  nombre: "pantalones",
+  nombre: "pantalon tipo Jean en Chambray",
   precio: 70000,
   imagen: "img/pantalones.jpg",          // imagen por defecto
   imagenesColor: {
