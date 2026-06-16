@@ -754,14 +754,26 @@ img { display: block; max-width: 100%; }
 .modal-info .btn-primary { margin-top: auto; text-align: center; }
 /* ── MODAL MÓVIL ── */
 @media (max-width: 600px) {
+  .modal-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .modal-card {
+    border-radius: 16px 16px 0 0;
+    max-height: 92vh;
+    overflow-y: auto;
+  }
   .modal-body {
     grid-template-columns: 1fr;
   }
   .modal-body img {
-  height: auto;
-  width: 100%;
-  object-fit: contain;
-}
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  .modal-info {
+    padding: 20px 16px;
+  }
 }
 
 
