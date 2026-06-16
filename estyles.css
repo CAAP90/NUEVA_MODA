@@ -752,6 +752,23 @@ img { display: block; max-width: 100%; }
 .modal-info p { font-size: .88rem; color: var(--gray2); line-height: 1.6; }
 .modal-info .sizes { flex-wrap: wrap; }
 .modal-info .btn-primary { margin-top: auto; text-align: center; }
+/* ── MODAL MÓVIL ── */
+@media (max-width: 600px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+  }
+  .modal-body img {
+    height: 260px;
+  }
+  .modal-info {
+    padding: 20px 16px;
+  }
+  .modal-card {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+}
+
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
