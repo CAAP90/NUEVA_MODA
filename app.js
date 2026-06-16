@@ -12,7 +12,7 @@ const productos = [
   {
   id: 1,
   nombre: "Chaqueta Polar con forro ovejero",
-  precio: 65000,
+  precio: 60000,
   imagen: "img/chaqueta-menta.jpg",
 imagenesColor: {
   "Blanca": "img/chaqueta-Blanca.jpg",
@@ -28,7 +28,7 @@ imagenesColor: {
   {
   id: 2,
   nombre: "Chaqueta Polar",
-  precio: 65000,
+  precio: 55000,
   imagen: "img/polar-rojo.jpg",
 imagenesColor: {
   "Negro": "img/polar-negro.jpg",
@@ -44,7 +44,7 @@ imagenesColor: {
   {
   id: 3,
   nombre: "pantalones",
-  precio: 90000,
+  precio: 70000,
   imagen: "img/pantalones.jpg",          // imagen por defecto
   imagenesColor: {
   "cargo": "img/pantalon-cargo.jpg",
@@ -59,7 +59,7 @@ imagenesColor: {
   {
     id: 4,
     nombre: "Faldas pana con bolsillo",
-    precio: 70000,
+    precio: 50000,
     imagen: "img/faldas.jpg",
     imagenesColor: {
     "Azul":  "img/falda-Azul.jpg",      // ← la imagen que ya tienes  
@@ -67,51 +67,28 @@ imagenesColor: {
     "Verde": "img/falda-Verde.jpg",
     
   },
-    tallas: ["S", "M", "L", "XL"],
+    tallas: ["M-L",],
     colores: ["Negra", "Azul", "Verde"],
     categoria: "faldas",
     descripcion: "Falda midi de corte fluido que se adapta perfectamente a tu figura."
   },
+  
   {
     id: 5,
-    nombre: "chaqueta tejido confeti",
-    precio: 70000,
-   imagen: "img/chaqueta-tejido-confeti.jpg",
-imagenesColor: {
-  "blanco crema": "img/chaqueta-tejido-confeti.jpg",
-},
-
-     tallas: ["XS", "S", "M", "L"],
-    colores: ["blanco crema"],
-    categoria: "chaqueta dama",
-    descripcion: "chaqueta tejida confeti para darle un toque a tu moda."
-  },
-  {
-    id: 6,
     nombre: "Braga tipo jean",
     precio: 80000,
     imagen: "img/braga-tipo-jean.jpg",
-    tallas: ["S", "M", "L"],
+    imagenesColor: {
+  "azul claro": "img/enterizo.jpg",
+},
+    tallas: ["S", "M", "L", "Xs", "Xl"],
     colores: ["Azul"],
     categoria: "bragas",
     descripcion: "hermosa braga para dama."
   },
+  
   {
-    id: 7,
-    nombre: "Abrigo de piel peluche",
-    precio: 65000,
-   imagen: "img/abrigos-de-piel-peluche.jpg",
-imagenesColor: {
-  "Rosa":  "img/abrigo-de-piel-rosa.jpg",
-  "Negro": "img/abrigo-de-piel-negro.jpg",
-},
-    tallas: ["XS", "S", "M", "L", "XL"],
-    colores: ["Rosa" , "Negro"],
-    categoria: "Abrigos",
-    descripcion: "abrigos de piel de peluche comodos y adecuados para los dias frios."
-  },
-  {
-  id: 8,
+  id: 6,
   nombre: "pantalon tipo jean",
   precio: 65000,
  imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
@@ -125,7 +102,7 @@ imagenesColor: {
   descripcion: "pantalones tipo jean clasico para dar un toque de comodidad."
 },
   {
-    id: 9,
+    id: 7,
     nombre: "media termica control abdomen",
     precio: 35000,
    imagen: "img/medias_termica_piel_control_abdomen.jpg",
