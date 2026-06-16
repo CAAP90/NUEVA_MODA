@@ -15,7 +15,7 @@ const productos = [
   precio: 60000,
   imagen: "img/chaqueta-menta.jpg",
 imagenesColor: {
-  "Blanca": "img/chaqueta-Blanca.jpg",
+  "marfil": "img/chaqueta-Blanca.jpg",
   "Rosa":   "img/chaqueta-rosa.jpg",
   "Azul":   "img/chaqueta-azul.jpg",
   "Verde":  "img/chaqueta-Verde.jpg",
@@ -81,7 +81,7 @@ imagenesColor: {
     imagenesColor: {
       "Azul claro": "img/enterizo2.jpg",
 },
-    tallas: ["S", "M", "L", "Xs", "Xl"],
+    tallas: ["Xs", "S", "M", "L", "Xl"],
     colores: ["Azul claro"],
     categoria: "bragas",
     descripcion: "hermosa braga para dama."
@@ -107,7 +107,6 @@ imagenesColor: {
     precio: 35000,
    imagen: "img/medias_termica_piel_control_abdomen.jpg",
    imagenesColor: {
-  "Rosa":  "img/medias_termica_piel_control_abdomen.jpg",
   "Negro": "img/medias_termica_piel_control_abdomen.jpg",
    },
     tallas: ["M-L"],
