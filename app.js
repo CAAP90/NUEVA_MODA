@@ -11,9 +11,9 @@
 const productos = [
   {
   id: 1,
-  nombre: "Chaqueta Polar Nueva Moda",
+  nombre: "Chaqueta Polar forrada",
   precio: 65000,
-  imagen: "img/chaquetas.jpg",
+  imagen: "img/chaqueta-menta.jpg",
 imagenesColor: {
   "Blanca": "img/chaqueta-Blanca.jpg",
   "Rosa":   "img/chaqueta-rosa.jpg",
@@ -28,7 +28,7 @@ imagenesColor: {
  
   {
   id: 2,
-  nombre: "pantalones Nueva Moda",
+  nombre: "pantalones",
   precio: 90000,
   imagen: "img/pantalones.jpg",          // imagen por defecto
   imagenesColor: {
@@ -42,7 +42,7 @@ imagenesColor: {
   
   {
     id: 3,
-    nombre: "Falda nueva moda",
+    nombre: "Faldas",
     precio: 70000,
     imagen: "img/faldas.jpg",
     imagenesColor: {
@@ -58,7 +58,7 @@ imagenesColor: {
   },
   {
     id: 4,
-    nombre: "chaqueta tejido confeti nueva moda",
+    nombre: "chaqueta tejido confeti",
     precio: 70000,
    imagen: "img/chaqueta-tejido-confeti.jpg",
 imagenesColor: {
@@ -72,7 +72,7 @@ imagenesColor: {
   },
   {
     id: 5,
-    nombre: "Braga tipo jean nueva moda",
+    nombre: "Braga tipo jean",
     precio: 80000,
     imagen: "img/braga-tipo-jean.jpg",
     tallas: ["S", "M", "L"],
@@ -82,7 +82,7 @@ imagenesColor: {
   },
   {
     id: 6,
-    nombre: "Abrigo de piel peluche nueva moda",
+    nombre: "Abrigo de piel peluche",
     precio: 65000,
    imagen: "img/abrigos-de-piel-peluche.jpg",
 imagenesColor: {
@@ -96,7 +96,7 @@ imagenesColor: {
   },
   {
   id: 7,
-  nombre: "pantalon tipo jean clasico",
+  nombre: "pantalon tipo jean",
   precio: 65000,
  imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
 imagenesColor: {
