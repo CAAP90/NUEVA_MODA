@@ -15,13 +15,13 @@ const productos = [
   precio: 60000,
   imagen: "img/chaqueta-menta.jpg",
 imagenesColor: {
-  "marfil": "img/chaqueta-Blanca.jpg",
+  "marfil": "img/chaqueta-marfil.jpg",
   "Rosa":   "img/chaqueta-rosa.jpg",
   "Azul":   "img/chaqueta-azul.jpg",
   "Verde":  "img/chaqueta-Verde.jpg",
 },
   tallas: ["S", "M", "L", "XL"],
-  colores: ["Blanca", "Rosa", "Azul", "Verde"],
+  colores: ["marfil", "Rosa", "Azul", "Verde"],
   categoria: "chaquetas",
   descripcion: "Chaqueta polar con forro ovejero."
   },
