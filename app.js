@@ -82,7 +82,7 @@ imagenesColor: {
   "azul claro": "img/enterizo.jpg",
 },
     tallas: ["S", "M", "L", "Xs", "Xl"],
-    colores: ["Azul"],
+    colores: ["Azul claro"],
     categoria: "bragas",
     descripcion: "hermosa braga para dama."
   },
