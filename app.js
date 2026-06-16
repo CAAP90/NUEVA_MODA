@@ -110,7 +110,7 @@ imagenesColor: {
   "Rosa":  "img/medias_termica_piel_control_abdomen.jpg",
   "Negro": "img/medias_termica_piel_control_abdomen.jpg",
    },
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["M-L"],
     colores: ["negro"],
     categoria: "medias",
     descripcion: "media termicas para el control de tu abdomen."
