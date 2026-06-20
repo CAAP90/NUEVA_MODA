@@ -1,4 +1,4 @@
-﻿/* ═ NUEVA MODA — app.js
+/* ═ NUEVA MODA — app.js
    Para agregar productos: añade objetos al array `productos`
    Campos: id, nombre, precio, imagen, tallas, categoria, descripcion
 ═══════════════════════════════════════ */
@@ -6,19 +6,19 @@
 /* ── 1. BASE DE DATOS DE PRODUCTOS ─────────────────────────────────
    Para agregar más referencias simplemente copia un objeto { } y
    pégalo aquí separado por una coma. Cambia id, nombre, precio, etc.
-   Las imágenes pueden ser URLs o rutas locales como "img/producto.jpg"
+   Las imágenes pueden ser URLs o rutas locales como "img/producto.webp"
 ─────────────────────────────────────────────────────────────────── */
 const productos = [
   {
   id: 1,
   nombre: "Chaqueta Polar con forro ovejero",
   precio: 60000,
-  imagen: "img/chaqueta-menta.jpg",
+  imagen: "img/chaqueta-menta.webp",
 imagenesColor: {
-  "marfil": "img/chaqueta-marfil.jpg",
-  "Rosa":   "img/chaqueta-rosa.jpg",
-  "Azul":   "img/chaqueta-azul.jpg",
-  "Verde":  "img/chaqueta-Verde.jpg",
+  "marfil": "img/chaqueta-marfil.webp",
+  "Rosa":   "img/chaqueta-rosa.webp",
+  "Azul":   "img/chaqueta-azul.webp",
+  "Verde":  "img/chaqueta-Verde.webp",
 },
   tallas: ["S", "M", "L", "XL"],
   colores: ["marfil", "Rosa", "Azul", "Verde"],
@@ -29,11 +29,11 @@ imagenesColor: {
   id: 2,
   nombre: "Chaqueta Polar",
   precio: 55000,
-  imagen: "img/polar-rojo.jpg",
+  imagen: "img/polar-rojo.webp",
 imagenesColor: {
-  "Negro": "img/polar-negro.jpg",
-  "Rosa":   "img/polar-rosa.jpg",
-  "Azul":   "img/polar-azul.jpg",
+  "Negro": "img/polar-negro.webp",
+  "Rosa":   "img/polar-rosa.webp",
+  "Azul":   "img/polar-azul.webp",
 },
   tallas: ["S", "M", "L", "XL"],
   colores: ["Negro", "Rosa", "Azul"],
@@ -45,10 +45,10 @@ imagenesColor: {
   id: 3,
   nombre: "pantalon tipo Jean en Chambray",
   precio: 70000,
-  imagen: "img/pantalones.jpg",          // imagen por defecto
+  imagen: "img/pantalones.webp",          // imagen por defecto
   imagenesColor: {
-  "cargo": "img/pantalon-cargo.jpg",
-  "tradicional": "img/pantalon-tradicional.jpg",
+  "cargo": "img/pantalon-cargo.webp",
+  "tradicional": "img/pantalon-tradicional.webp",
 },
   tallas: ["8", "10", "12", "14", "16", "18"],
   colores: ["cargo","tradicional"],
@@ -60,11 +60,11 @@ imagenesColor: {
     id: 4,
     nombre: "Faldas pana con bolsillo",
     precio: 50000,
-    imagen: "img/faldas.jpg",
+    imagen: "img/faldas.webp",
     imagenesColor: {
-    "Azul":  "img/falda-Azul.jpg",      // ← la imagen que ya tienes  
-    "Negra": "img/falda-Negra.jpg",  
-    "Verde": "img/falda-Verde.jpg",
+    "Azul":  "img/falda-Azul.webp",      // ← la imagen que ya tienes  
+    "Negra": "img/falda-Negra.webp",  
+    "Verde": "img/falda-Verde.webp",
     
   },
     tallas: ["M-L",],
@@ -77,9 +77,9 @@ imagenesColor: {
     id: 5,
     nombre: "Braga tipo jean",
     precio: 80000,
-    imagen: "img/braga-tipo-jean.jpg",
+    imagen: "img/braga-tipo-jean.webp",
     imagenesColor: {
-      "Azul claro": "img/enterizo2.jpg",
+      "Azul claro": "img/enterizo2.webp",
 },
     tallas: ["Xs", "S", "M", "L", "Xl"],
     colores: ["Azul claro"],
@@ -91,10 +91,10 @@ imagenesColor: {
   id: 6,
   nombre: "pantalon tipo jean",
   precio: 65000,
- imagen: "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
+ imagen: "img/pantalon-tipo-jean-clasico-azul-claro.webp",
 imagenesColor: {
-  "Azul claro":  "img/pantalon-tipo-jean-clasico-azul-claro.jpg",
-  "Azul oscuro": "img/pantalon-tipo-jean-clasico-azul-oscuro.jpg",
+  "Azul claro":  "img/pantalon-tipo-jean-clasico-azul-claro.webp",
+  "Azul oscuro": "img/pantalon-tipo-jean-clasico-azul-oscuro.webp",
 },
   tallas: ["XS", "S", "M", "L", "XL"],
   colores: ["Azul claro", "Azul oscuro"],
@@ -105,9 +105,9 @@ imagenesColor: {
     id: 7,
     nombre: "media termica control abdomen",
     precio: 35000,
-   imagen: "img/medias_termica_piel_control_abdomen.jpg",
+   imagen: "img/medias_termica_piel_control_abdomen.webp",
    imagenesColor: {
-  "Negro": "img/medias_termica_piel_control_abdomen.jpg",
+  "Negro": "img/medias_termica_piel_control_abdomen.webp",
    },
     tallas: ["M-L"],
     colores: ["negro"],
