@@ -1,40 +1,74 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nueva Moda – La Nueva Era de la Moda</title>
+  <meta name="description" content="Moda femenina de calidad: chaquetas, pantalones, faldas y más. Envíos a todo Colombia. Nueva Moda – La Nueva Era de la Moda." />
   <meta name="google-site-verification" content="KoJVtNRoJem3dLh9O1pPJBp0yw2cqA3M4eQ7zm6sUG4" />
-  <link rel="icon" href="img/logonuevamoda.webp" type="image/jpeg">
-  <link rel="preload" href="img/faldas.webp" as="image" />
+
+  <link rel="icon" href="img/logonuevamoda.webp" type="image/webp">
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+  <link rel="preload" href="img/faldas.webp" as="image" fetchpriority="high" />
+
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Raleway,sans-serif;background:#fff;overflow-x:hidden}
+    img{display:block;max-width:100%}
+    .topbar{background:#111;color:#fff;display:flex;justify-content:space-around;align-items:center;padding:8px 20px;font-size:.78rem;font-weight:500;letter-spacing:.04em;gap:10px;flex-wrap:wrap;border-bottom:1px solid rgba(200,168,75,.38)}
+    .topbar span{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:999px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06)}
+    .navbar{background:#fff;display:flex;align-items:center;gap:20px;padding:14px 40px;border-bottom:1px solid #eee;position:sticky;top:0;z-index:100}
+    .logo-circle{display:flex;align-items:center;justify-content:center;background:#111;border:2px solid #C8A84B;border-radius:70%;width:100px;height:100px;flex-shrink:0;overflow:hidden}
+    .hero{background:#111;display:flex;align-items:stretch;justify-content:space-between;min-height:340px;padding:0 0 0 80px;position:relative;overflow:hidden}
+    .hero-content{color:#fff;max-width:420px;z-index:2;display:flex;flex-direction:column;justify-content:center;padding:30px 0}
+    .hero-title{font-size:clamp(2.8rem,5vw,4.2rem);color:#C8A84B;line-height:1;margin-bottom:8px}
+    .hero-right{position:relative;flex-shrink:0;width:40%;display:flex;align-items:flex-end;justify-content:flex-end}
+    .hero-model{position:relative;z-index:3;height:100%;min-height:320px;width:75%;object-fit:cover;object-position:top center;display:block;-webkit-mask-image:linear-gradient(to right,transparent 0%,black 25%);mask-image:linear-gradient(to right,transparent 0%,black 25%)}
+    .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-bottom:40px}
+    .hamburger{display:none;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#111;margin-left:auto}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:768px){
+      .hamburger{display:block}
+      .nav-links{display:none}
+      .hero{flex-direction:column;padding:20px 20px 0;min-height:auto}
+      .hero-content{padding:0;max-width:100%}
+      .hero-right{width:100%;height:500px;overflow:hidden}
+      .hero-model{width:100%;height:500px;min-height:500px;object-fit:cover;object-position:top center;-webkit-mask-image:none;mask-image:none}
+    }
+    @media(max-width:480px){.topbar{flex-direction:column;gap:4px;text-align:center;font-size:.72rem}}
+  </style>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Raleway:wght@300;400;500;600;700&display=swap" /></noscript>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /></noscript>
+
   <link rel="stylesheet" href="estyles.css" />
 </head>
 <body>
 
-  <!-- ══════════ TOPBAR ══════════ -->
   <div class="topbar">
     <span><i class="fas fa-truck"></i> Envíos a todo el país</span>
     <span><i class="far fa-star"></i> Calidad que te acompaña siempre</span>
     <span><i class="fab fa-whatsapp"></i> WhatsApp: +573232419952</span>
   </div>
 
-  <!-- ══════════ NAVBAR ══════════ -->
   <header class="navbar">
     <div class="nav-brand">
       <div class="logo-circle">
-  <img src="img/logonuevamoda.webp" />
-</div>
+        <img src="img/logonuevamoda.webp" alt="Logo Nueva Moda" width="100" height="100" loading="eager" />
+      </div>
       <div class="logo-text-block">
         <span class="logo-name">Nueva Moda</span>
         <span class="logo-tagline">LA NUEVA ERA DE LA MODA</span>
-        
       </div>
     </div>
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Navegación principal">
       <a href="#inicio" class="active">INICIO</a>
       <a href="#mujer">MUJER</a>
       <a href="#coleccion">NUEVA COLECCIÓN</a>
@@ -43,26 +77,26 @@
       <a href="#contacto">CONTACTO</a>
     </nav>
     <div class="nav-actions">
-      <div class="search-box">
-        <input type="text" placeholder="Buscar productos..." />
-        <button><i class="fas fa-search"></i></button>
+      <div class="search-box" role="search">
+        <label for="searchInput" class="sr-only">Buscar productos</label>
+        <input type="text" id="searchInput" placeholder="Buscar productos..." />
+        <button aria-label="Buscar"><i class="fas fa-search" aria-hidden="true"></i></button>
       </div>
-      <button class="icon-btn cart-btn" id="cartBtn">
-  <i class="fas fa-cart-shopping"></i>
-  <span class="cart-count">0</span>
-</button>
+      <button class="icon-btn cart-btn" id="cartBtn" aria-label="Abrir carrito de compras">
+        <i class="fas fa-cart-shopping" aria-hidden="true"></i>
+        <span class="cart-count" aria-live="polite">0</span>
+      </button>
     </div>
-    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
   </header>
 
-  <!-- ══════════ HERO ══════════ -->
   <section class="hero" id="inicio">
-    <div class="hero-bg-particles">
+    <div class="hero-bg-particles" aria-hidden="true">
       <span></span><span></span><span></span><span></span><span></span>
       <span></span><span></span><span></span><span></span><span></span>
     </div>
-
-    <!-- Texto izquierdo -->
     <div class="hero-content">
       <h1 class="hero-title">Nueva Moda</h1>
       <p class="hero-subtitle">LA NUEVA ERA DE LA MODA</p>
@@ -70,90 +104,72 @@
       <p class="hero-desc">Descubre nuestras colecciones diseñadas<br />para realzar tu estilo único.</p>
       <a href="#coleccion" class="btn-primary">VER COLECCIÓN &rarr;</a>
     </div>
-
-    <!-- Lado derecho: arco + modelo + flores -->
     <div class="hero-right">
-  <!-- Arco fuscia SVG grande -->
-  <svg class="hero-arc-svg" id="heroArc" viewBox="0 0 400 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M380,0 C380,0 60,200 60,400 C60,600 380,800 380,800" fill="none" stroke="#E91E8C" stroke-width="28"/>
-</svg>
-      <!-- Imagen modelo -->
-      <img
-         src="img/faldas.webp"
-         alt="Modelo principal"
-        class="hero-model"
-/>
-     
+      <svg class="hero-arc-svg" id="heroArc" viewBox="0 0 400 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M380,0 C380,0 60,200 60,400 C60,600 380,800 380,800" fill="none" stroke="#E91E8C" stroke-width="28"/>
+      </svg>
+      <img src="img/faldas.webp" alt="Modelo con colección de faldas Nueva Moda" class="hero-model" width="480" height="640" loading="eager" fetchpriority="high" decoding="async" />
     </div>
   </section>
 
-  <!-- ══════════ CATEGORÍAS ══════════ -->
   <section class="categories" id="mujer">
     <div class="cat-grid">
-      <div class="cat-card" data-cat="chaquetas">
-        <i class="fas fa-vest cat-icon"></i>
+      <div class="cat-card" data-cat="chaquetas" role="button" tabindex="0" aria-label="Ver chaquetas">
+        <i class="fas fa-vest cat-icon" aria-hidden="true"></i>
         <span>CHAQUETAS</span>
       </div>
-      <div class="cat-card" data-cat="pantalones">
-        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h12l-2 18H8L6 3z"/><path d="M6 3l6 10 6-10"/></svg>
+      <div class="cat-card" data-cat="pantalones" role="button" tabindex="0" aria-label="Ver pantalones">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 3h12l-2 18H8L6 3z"/><path d="M6 3l6 10 6-10"/></svg>
         <span>PANTALONES</span>
       </div>
-      <div class="cat-card" data-cat="faldas">
-        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4h12v2L14 21H10L6 6V4z"/></svg>
+      <div class="cat-card" data-cat="faldas" role="button" tabindex="0" aria-label="Ver faldas">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 4h12v2L14 21H10L6 6V4z"/></svg>
         <span>FALDAS</span>
       </div>
-        <div class="cat-card" data-cat="bragas">
-        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3h8l2 5-3 1v12H9V9L6 8l2-5z"/></svg>
+      <div class="cat-card" data-cat="bragas" role="button" tabindex="0" aria-label="Ver bragas">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 3h8l2 5-3 1v12H9V9L6 8l2-5z"/></svg>
         <span>Braga</span>
       </div>
-      <div class="cat-card" data-cat="pantalon tipo jean">
-        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
+      <div class="cat-card" data-cat="pantalon tipo jean" role="button" tabindex="0" aria-label="Ver pantalón tipo jean">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
         <span>pantalon tipo jean</span>
       </div>
-              
-      <div class="cat-card" data-cat="medias">
-        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
+      <div class="cat-card" data-cat="medias" role="button" tabindex="0" aria-label="Ver medias térmicas">
+        <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 3h5v6H6z"/><path d="M13 3h5v6h-5z"/><path d="M5 12h14v9H5z"/></svg>
         <span>Medias térmicas</span>
       </div>
-     </div>
-     
-</section>
+    </div>
+  </section>
 
-  <!-- ══════════ COLECCIÓN DESTACADA ══════════ -->
   <section class="featured" id="coleccion">
     <div class="section-header">
       <div class="section-lines"><span></span><h2>Colección Destacada</h2><span></span></div>
       <p class="section-sub">Lo mejor de nuestra temporada</p>
     </div>
-
-    <div class="products-grid" id="productsGrid">
-      <!-- Los productos se renderizan con JS desde app.js -->
-    </div>
-
+    <div class="products-grid" id="productsGrid"></div>
     <div class="load-more-wrap">
-  <button class="btn-outline" id="btnVerTodos" style="display:none; margin-right: 12px;">← VER TODOS</button>
-  <button class="btn-outline" id="btnLoadMore">VER MÁS PRODUCTOS</button>
-</div>
+      <button class="btn-outline" id="btnVerTodos" style="display:none; margin-right: 12px;">← VER TODOS</button>
+      <button class="btn-outline" id="btnLoadMore">VER MÁS PRODUCTOS</button>
+    </div>
   </section>
 
-  <!-- ══════════ BENEFICIOS ══════════ -->
   <section class="benefits">
     <div class="benefit-item">
-      <i class="fas fa-award benefit-icon"></i>
+      <i class="fas fa-award benefit-icon" aria-hidden="true"></i>
       <div>
         <strong>CALIDAD GARANTIZADA</strong>
         <p>Prendas seleccionadas con los mejores materiales</p>
       </div>
     </div>
     <div class="benefit-item">
-  <i class="fas fa-truck benefit-icon"></i>
-  <div>
-    <strong>ENVÍOS A TODO EL PAÍS</strong>
-    <img src="img/logo_interrapidisimo.webp" alt="Interrapidismo" style="height: 30px; margin-top: 6px; object-fit: contain;" />
-  </div>
-</div>
+      <i class="fas fa-truck benefit-icon" aria-hidden="true"></i>
+      <div>
+        <strong>ENVÍOS A TODO EL PAÍS</strong>
+        <img src="img/logo_interrapidisimo.webp" alt="Interrapidísimo servicio de envíos" width="120" height="30" loading="lazy" style="height:30px;width:auto;margin-top:6px;object-fit:contain;" />
+      </div>
+    </div>
     <div class="benefit-item">
-      <i class="fas fa-box benefit-icon"></i>
+      <i class="fas fa-box benefit-icon" aria-hidden="true"></i>
       <div>
         <strong>ENTREGA RÁPIDA</strong>
         <p>Recibe tus productos en el menor tiempo posible</p>
@@ -161,25 +177,20 @@
     </div>
   </section>
 
-  <!-- ══════════ FOOTER ══════════ -->
   <footer class="footer" id="contacto">
     <div class="footer-inner">
-
-      <!-- Col 1: Brand -->
       <div class="footer-brand">
-     <div class="logo-circle small">
-    <img src="img/logonuevamoda.webp" alt="Logo" /> 
-</div>
+        <div class="logo-circle small">
+          <img src="img/logonuevamoda.webp" alt="Logo Nueva Moda" width="54" height="54" loading="lazy" />
+        </div>
         <p>Moda femenina que inspira confianza y realza tu belleza en cada ocasión.</p>
         <div class="footer-socials">
-          <a href="https://www.instagram.com/almacenes.nueva_moda" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://tiktok.com/@almacenesnuevamoda" target="_blank"><i class="fab fa-tiktok"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/almacenes.nueva_moda" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://tiktok.com/@almacenesnuevamoda" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
         </div>
       </div>
-
-      <!-- Col 2: Categorías -->
       <div class="footer-col">
         <h4>CATEGORÍAS</h4>
         <ul>
@@ -187,12 +198,10 @@
           <li><a href="#">Chaqueta polar</a></li>
           <li><a href="#">Pantalones</a></li>
           <li><a href="#">Faldas</a></li>
-          <li><a href="#">bragas</a></li>
-          <li><a href="#">medias termicas</a></li>
+          <li><a href="#">Bragas</a></li>
+          <li><a href="#">Medias termicas</a></li>
         </ul>
       </div>
-
-      <!-- Col 3: Información -->
       <div class="footer-col" id="nosotros">
         <h4>INFORMACIÓN</h4>
         <ul>
@@ -204,67 +213,50 @@
           <li><a href="#">Contacto</a></li>
         </ul>
       </div>
-
-      <!-- Col 4: Ubicación -->
-<div class="footer-col">
-  <h4>NUESTRA UBICACIÓN</h4>
-  <p style="color:rgba(255,255,255,.6); font-size:.85rem; margin-bottom:12px;">
-    <i class="fas fa-map-marker-alt" style="color:var(--pink); margin-right:6px;"></i>
-    Cra. 52c #39A-28 Sur, Bogotá
-  </p>
-  <div class="footer-map">
-    <iframe
-      src="https://www.google.com/maps?q=4.6005545010809925,-74.13288743349592&output=embed"
-      width="100%"
-      height="170"
-      style="border:0; border-radius:8px; filter:grayscale(20%) brightness(0.85);"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-</div>
-
+      <div class="footer-col">
+        <h4>NUESTRA UBICACIÓN</h4>
+        <p style="color:rgba(255,255,255,.6); font-size:.85rem; margin-bottom:12px;">
+          <i class="fas fa-map-marker-alt" style="color:var(--pink); margin-right:6px;" aria-hidden="true"></i>
+          Cra. 52c #39A-28 Sur, Bogotá
+        </p>
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps?q=4.6005545010809925,-74.13288743349592&output=embed" width="100%" height="170" style="border:0; border-radius:8px; filter:grayscale(20%) brightness(0.85);" allowfullscreen="" loading="lazy" title="Ubicación Nueva Moda Bogotá" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
-
     <div class="footer-bottom">
       <span>© 2024 Nueva Moda. Todos los derechos reservados.</span>
-      <span>Diseñado con <i class="fas fa-heart" style="color:var(--pink)"></i> para mujeres únicas</span>
+      <span>Diseñado con <i class="fas fa-heart" style="color:var(--pink)" aria-hidden="true"></i> para mujeres únicas</span>
     </div>
   </footer>
 
-  <!-- ══════════ BOTÓN WHATSAPP ══════════ -->
-  <a href="https://wa.me/573232419952" class="whatsapp-float" target="_blank">
-    <i class="fab fa-whatsapp"></i>
+  <a href="https://wa.me/573232419952" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
   </a>
 
-  <!-- ══════════ MODAL PRODUCTO ══════════ -->
-  <div class="modal-overlay" id="modalOverlay">
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Detalle del producto">
     <div class="modal-card">
-      <button class="modal-close" id="modalClose">&times;</button>
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
       <div class="modal-body" id="modalBody"></div>
     </div>
   </div>
 
- <!-- ══════════ PANEL CARRITO ══════════ -->
-<div class="cart-overlay" id="cartOverlay"></div>
-<div class="cart-panel" id="cartPanel">
-  <div class="cart-header">
-    <h3>Mi Carrito</h3>
-    <button class="cart-close" id="cartClose">&times;</button>
-  </div>
-  <div class="cart-items" id="cartItems"></div>
-  <div class="cart-footer">
-    <div class="cart-total">
-      <span>Total:</span>
-      <span id="cartTotal">$0</span>
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-panel" id="cartPanel" role="dialog" aria-modal="true" aria-label="Carrito de compras">
+    <div class="cart-header">
+      <h3>Mi Carrito</h3>
+      <button class="cart-close" id="cartClose" aria-label="Cerrar carrito">&times;</button>
     </div>
-    <button class="btn-primary" id="btnCheckout">FINALIZAR PEDIDO</button>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span id="cartTotal">$0</span>
+      </div>
+      <button class="btn-primary" id="btnCheckout">FINALIZAR PEDIDO</button>
+    </div>
   </div>
-</div>
 
-<script src="app.js" defer></script>
-
+  <script src="app.js" defer></script>
 </body>
 </html>
-
