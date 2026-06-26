@@ -477,12 +477,13 @@ img { display: block; max-width: 100%; }
 .product-img-wrap {
   position: relative;
   overflow: hidden;
-  height: 280px;
+  height: 320px;
 }
 .product-img-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center:
   transition: transform .4s;
 }
 .product-card:hover .product-img-wrap img { transform: scale(1.06); }
@@ -793,11 +794,14 @@ img { display: block; max-width: 100%; }
   .nav-actions { display: flex; }
   .nav-links.open { display: flex; flex-direction: column; width: 100%; order: 3; gap: 12px; }
   .hamburger { display: block; }
+  .logo-circle { width: 54px; height: 54px; }
+  .logo-name { font-size: 1.1rem; }
+  .logo-tagline { font-size: .5rem; }
 
 .hero { flex-direction: column; padding: 20px 20px 0; min-height: auto; }
 .hero-content { padding: 0; max-width: 100%; }
-.hero-right { width: 100%; height: 500px; overflow: hidden; position: relative; }
-.hero-model { width: 100%; height: 500px; min-height: 500px; object-fit: cover; object-position: top center; -webkit-mask-image: none; mask-image: none; }
+.hero-right { width: 100%; height: auto; overflow: visible; position: relative; }
+.hero-model { width: 100%; height: auto; min-height: unset; object-fit: contain; object-position: top center; -webkit-mask-image: none; mask-image: none; display: block; }
 .hero-flowers { display: none; }
 .hero-arc-svg { display: none; }
 
@@ -807,6 +811,7 @@ img { display: block; max-width: 100%; }
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 24px; }
   .modal-body { grid-template-columns: 1fr; }
   .modal-body img { height: auto; object-fit: contain; }
+  
 }
 
 @media (max-width: 480px) {
